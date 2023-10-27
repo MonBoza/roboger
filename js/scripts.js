@@ -40,5 +40,7 @@ function inputNumChange(inputArray){
 
 window.addEventListener("load", function() {
     const form = document.getElementById("length-form");
-  form.addEventListener("submit",inputNumChange);
+  form.addEventListener("submit",function(event){
+    inputLength(event);
+  });
 });

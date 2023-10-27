@@ -2,10 +2,28 @@ body {
     background-image:url("https://pbs.twimg.com/media/EYUm68yXQAAoqKL?format=jpg&name=large");
     opacity: 0.75;
 } 
+
 h1 {
     text-align:center;
     color:rgb(181, 31, 31);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h2 {
+    text-align:center;
+    color:rgb(164, 21, 76);
+}
+
+form {
+    text-align:center;
+}
+
+label {
+    color:rgb(9, 41, 108);
+    font-weight: bold;
+}
+
+button {
+    color:rgb(181, 31, 31);
+}
 
