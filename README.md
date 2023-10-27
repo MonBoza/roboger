@@ -9,14 +9,21 @@ for (i = 0; i < inputLength; i++);{
 Expected Output: [0,1,2,3,4] 
 
 Describe: wouldYou()
-Test: "It will replace the number 5 in array with a string "would you be mine""
+Test: "It will replace the number 1 in array with a string "right shoe""
 Code: input = 8
 inputArray.forEach(function(number, i){
-  if (number === 5){
-    inputArray[i] = "would you be mine?"
+  if (number === 1){
+    inputArray[i] = "right shoe"
   }
 });
-Expected Output: [1,2,3,4, "would you be mine",6,7]
+Expected Output: ["right shoe",2,3,4,5,6,7]
+
+Test "It will replace the number 1 in array with a string "would you be mine?" "
+Code : input = 8
+   else if (number === 3){
+    inputArray[i] = "would you be mine?"
+  }
+Expected Output: ["1,2,"would you be mine?",4,5,6,7]
 
 
 arrayOfThingsILike.forEach(function(thing) {

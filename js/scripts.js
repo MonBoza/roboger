@@ -8,11 +8,12 @@ function inputLengthArray(inputLength) {
 
 function inputNumChange(){
     inputArray.forEach(function(number, i){
-        if (number[i] === 5){
-            inputArray [i] === "would you be mine?"
-        }
-    })
-    
+        if (number[i] === 1){
+            inputArray [i] === "right shoe"
+        } else if (number === 3){
+            inputArray[i] === "would you be mine?"
+          }
+    });
 }
 
 
