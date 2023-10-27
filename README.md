@@ -97,5 +97,5 @@ Expected Output: ["1,2,3,4,5,6,"Could you be mine?"]
 
 Test: "It replace all numbers with the number 1 in it to "would you be mine""
 code: input = 14
-
+else if ( number === ) 
 Expected Output ["0 , Right shoe , 2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , Beyonce, right shoe, 12, would you be mine?, 14]

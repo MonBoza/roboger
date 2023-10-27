@@ -15,6 +15,7 @@ function inputLengthArray(inputLength) {
 }
 
 function inputNumChange(inputArray){
+
     let output = document.createElement("p");
     inputArray.forEach(function(number, i){
         if (number === 1){
