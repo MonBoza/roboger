@@ -1,8 +1,12 @@
-Describe: neighborInput()
+Describe: inputLength()
 
-Test: "It should an array of numbers depending on the users input"
-code: const neighborInput = document.getElementById("neighborInput").value;
-Expected Output: 5 
+Test: "It should make an array of numbers depending on the users input"
+code: let input = 5
+const input = document.getElementById("input").value;
+for (i = 0; i < inputLength; i++);{
+    console.log(i)
+}
+Expected Output: [0,1,2,3,4] 
 
 Describe neighborDigit();
 
