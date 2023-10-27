@@ -1,2 +1,5 @@
-let digit = "1234567"
-let digitArray = digit.split("");
+function neighborInput() {
+   let neighborInput = document.getElementById("neighborInput").value;
+   neighborInput = neighborInput.split("");
+   console.log(neighborInput);
+}
