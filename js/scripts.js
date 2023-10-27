@@ -24,13 +24,12 @@ function inputNumChange(inputArray){
             inputArray[i] = "Right shoe"
         } else if (numberString.includes("3")){
             inputArray[i] = "would you be mine?"
-        } else if (number === 6){
+        } else if (numberString.includes("6")){
             inputArray[i] = "left shoe"
-        } else if (number === 8){
+        } else if (numberString.includes("8")){
             inputArray[i] = "could you be mine?"
-        } else if (number === 9){
+        } else if (numberString.includes("9"))
             inputArray[i] = "Beyonce"
-        }
     });
     output.textContent = inputArray.join(" , ")
     return output;
