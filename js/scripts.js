@@ -1,9 +1,9 @@
 function inputLength(event) {
     event.preventDefault();
     let inputLength = document.getElementById("inputLength").value;
-    let inputLengthArray = inputLengthArray(inputLength);
+    let inputArray = inputLengthArray(inputLength);
     let output = inputNumChange(inputArray);
-    document.body.append(output);
+    document.body.appendChild(output);
 }
 
 function inputLengthArray(inputLength) {
