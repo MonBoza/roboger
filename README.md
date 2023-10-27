@@ -1,3 +1,10 @@
+Describe: inputLength()
+Test:"It will create variable output and append output to the body of html"
+Code:let output = inputNumChange(inputArray);
+    document.body.appendChild(output);
+Expected Output:
+
+
 Describe: inputLengthArray()
 
 Test: "It should make an array of numbers depending on the users input"

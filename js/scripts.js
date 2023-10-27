@@ -3,7 +3,7 @@ function inputLength(event) {
     let inputLength = document.getElementById("inputLength").value;
     let inputArray = inputLengthArray(inputLength);
     let output = inputNumChange(inputArray);
-    document.body.appendChild(output);
+    document.body.append(output);
 }
 
 function inputLengthArray(inputLength) {
@@ -17,7 +17,7 @@ function inputLengthArray(inputLength) {
 function inputNumChange(inputArray){
     let output = document.createElement("p");
     inputArray.forEach(function(number, i){
-        if (number === 0){
+        if (number === 1){
             inputArray[i] = "Right shoe"
         } else if (number === 3){
             inputArray[i] = "would you be mine?"
