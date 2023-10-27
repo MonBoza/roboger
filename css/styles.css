@@ -1,8 +1,11 @@
 body {
     background-image:url("https://pbs.twimg.com/media/EYUm68yXQAAoqKL?format=jpg&name=large");
     opacity: 0.75;
-
 } 
-.h1 {
-    color:rgb(224, 15, 15)
+h1 {
+    text-align:center;
+    color:rgb(181, 31, 31);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+

@@ -14,9 +14,8 @@ function inputLengthArray(inputLength) {
     return inputArray;
 }
 
-function inputNumChange(){
+function inputNumChange(inputArray){
     let output = document.createElement("p");
-    debugger;
     inputArray.forEach(function(number, i){
         if (number[i] === 1){
             inputArray[i] === "right shoe"
@@ -40,7 +39,6 @@ function inputNumChange(){
 
 
 window.addEventListener("load", function() {
-  document.getElementById("inputLength").addEventListener("submit",function(event) {
-    inputLength(event);
-  });
+    const form = document.getElementById("length-form");
+  form.addEventListener("submit",inputNumChange);
 });
