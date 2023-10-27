@@ -12,7 +12,11 @@ function inputNumChange(){
             inputArray [i] === "right shoe"
         } else if (number === 3){
             inputArray[i] === "would you be mine?"
-          }
+        } else if (number === 5){
+            inputArray[i] === "left shoe"
+        } else if (number === 7){
+            inputArray[i] === "could you be mine?"
+        }
     });
 }
 
