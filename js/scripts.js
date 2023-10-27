@@ -15,12 +15,14 @@ function inputLengthArray(inputLength) {
 }
 
 function inputNumChange(inputArray){
-
     let output = document.createElement("p");
+    
     inputArray.forEach(function(number, i){
-        if (number === 1){
+        let numberString = number.toString();
+
+        if (numberString.includes("1")){
             inputArray[i] = "Right shoe"
-        } else if (number === 3){
+        } else if (numberString.includes("3")){
             inputArray[i] = "would you be mine?"
         } else if (number === 6){
             inputArray[i] = "left shoe"
