@@ -8,7 +8,7 @@ function inputLength(event) {
 
 function inputLengthArray(inputLength) {
     let inputArray = [];
-     for (let i = 1; i <= inputLength; i++){
+     for (let i = 0; i <= inputLength; i++){
         inputArray.push(i);
     }
     return inputArray;
@@ -17,16 +17,16 @@ function inputLengthArray(inputLength) {
 function inputNumChange(inputArray){
     let output = document.createElement("p");
     inputArray.forEach(function(number, i){
-        if (number[i] === 1){
-            inputArray[i] === "right shoe"
+        if (number === 0){
+            inputArray[i] = "Right shoe"
         } else if (number === 3){
-            inputArray[i] === "would you be mine?"
-        } else if (number === 5){
-            inputArray[i] === "left shoe"
-        } else if (number === 7){
-            inputArray[i] === "could you be mine?"
+            inputArray[i] = "would you be mine?"
+        } else if (number === 6){
+            inputArray[i] = "left shoe"
+        } else if (number === 8){
+            inputArray[i] = "could you be mine?"
         } else if (number === 9){
-            inputArray[i] === "Beyonce"
+            inputArray[i] = "Beyonce"
         }
     });
     output.textContent = inputArray.join(" , ")
