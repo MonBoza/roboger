@@ -45,24 +45,6 @@ Copyright (c) October 27, 2023  Monica Barboza
 
 
 
-Describe: inputLength()
-
-Test:"It will create variable output and append output to the body of html"
-Code:let output = inputNumChange(inputArray);
-    document.body.append(output);
-Expected Output: Output displayed on the bottom of the Application
-
-
-Describe: inputLengthArray()
-
-Test: "It should make an array of numbers depending on the users input"
-code: let input = 5
-const input = document.getElementById("input").value;
-for (i = 0; i < inputLength; i++);{
-    console.log(i)
-}
-Expected Output: [0,1,2,3,4] 
-
 Describe: inputNumChange()
 
 Test: "It will replace the number 1 in array with a string "right shoe""
@@ -99,6 +81,24 @@ Test: "It replace all numbers with the number 1 in it to "would you be mine""
 code: input = 14
  let numString = number.toString():
  if(numString.includes(1)) {
-    
+
  }
 Expected Output ["0 , Right shoe , 2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , Beyonce, right shoe, 12, would you be mine?, 14]
+//UI
+Describe: inputLength()
+
+Test:"It will create variable output and append output to the body of html"
+Code:let output = inputNumChange(inputArray);
+    document.body.append(output);
+Expected Output: Output displayed on the bottom of the Application
+
+
+Describe: inputLengthArray()
+
+Test: "It should make an array of numbers depending on the users input"
+code: let input = 5
+const input = document.getElementById("input").value;
+for (i = 0; i < inputLength; i++);{
+    console.log(i)
+}
+Expected Output: [0,1,2,3,4] 
