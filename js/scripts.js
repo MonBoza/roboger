@@ -1,22 +1,22 @@
 //Business Logic
-function inputNumChange(inputArray){
+function inputNumChange(inputArray) {
     let output = document.createElement("p");
-    
+
     inputArray.forEach(function(number, i){
         let numberString = number.toString();
 
-        if (numberString.includes(1)){
-            inputArray[i] = "Right shoe"
-        } else if (numberString.includes(3)){
+        if (numberString.includes(0)) {
+            inputArray[i] = "Beyonce"
+        } else if (numberString.includes(3)) {
             inputArray[i] = "would you be mine?"
-        } else if (numberString.includes(6)){
+        } else if (numberString.includes(6)) {
             inputArray[i] = "left shoe"
-        } else if (numberString.includes(8)){
+        } else if (numberString.includes(8)) {
             inputArray[i] = "could you be mine?"
         } else if (numberString.includes(9))
-            inputArray[i] = "Beyonce"
+            inputArray[i] = "right Shoe"
     });
-    output.textContent = inputArray.join(" , ")
+    output.textContent = inputArray.join(" , ");
     return output;
 }
 
@@ -41,7 +41,7 @@ function inputLengthArray(inputLength) {
 }
 window.addEventListener("load", function() {
     const form = document.getElementById("length-form");
-  form.addEventListener("submit",function(event){
+  form.addEventListener("submit",function(event) {
     inputLength(event);
   });
 });

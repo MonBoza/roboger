@@ -13,7 +13,7 @@
 ## Description
 
  This application gives the user the opportunity to select any number and in return their result is an array of numbers with a few substitutions made by me.
- * Example: I changed the number 1 to "right shoe", 3 to "would you be mine?", 6 to "left shoe", 8 to "could you be mine?", 9 to "Beyonce"
+ * Example: I changed the number 1 to "Beyonce", 3 to "would you be mine?", 6 to "left shoe", 8 to "could you be mine?", 9 to "right shoe"
  * If a user chooses the number 9 the result will be "0 , Right shoe , 2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , Beyonce"".
  * Try it out at http://monboza.github.io/roboger/
 
@@ -49,16 +49,16 @@ Copyright (c) October 27, 2023  Monica Barboza
 
 Describe: inputNumChange()
 
-Test: "It will replace the number 1 in array with a string "right shoe""
+Test: "It will replace the number 0 in array with a string "right shoe""
 Code: input = 8
 inputArray.forEach(function(number, i){
   if (number === 1){
     inputArray[i] = "right shoe"
   }
 });
-Expected Output: ["right shoe",2,3,4,5,6,7]
+Expected Output: ["Beyonce",1,2,3,4,5,6,7]
 
-Test: "It will replace the number 1 in array with a string "would you be mine?" "
+Test: "It will replace the number 3 in array with a string "would you be mine?" "
 Code : input = 8
    else if (number === 3){
     inputArray[i] = "would you be mine?"
@@ -85,22 +85,9 @@ code: input = 14
  if(numString.includes(1)) {
 
  }
-Expected Output ["0 , Right shoe , 2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , Beyonce, right shoe, 12, would you be mine?, 14]
-//UI
-Describe: inputLength()
+Expected Output ["Beyonce, 1, 2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , right shoe, right shoe, 12, would you be mine?, 14]
 
-Test:"It will create variable output and append output to the body of html"
-Code:let output = inputNumChange(inputArray);
-    document.body.append(output);
-Expected Output: Output displayed on the bottom of the Application
-
-
-Describe: inputLengthArray()
-
-Test: "It should make an array of numbers depending on the users input"
-code: let input = 5
-const input = document.getElementById("input").value;
-for (i = 0; i < inputLength; i++);{
-    console.log(i)
-}
-Expected Output: [0,1,2,3,4] 
+Test: "This will join the output text in array form;
+code: output.textContent = inputArray.join(" , ");
+    return output;
+Expected output:  ["Beyonce, 1, 2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , right shoe, right shoe, 12, would you be mine?, 14]
