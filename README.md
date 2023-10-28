@@ -2,7 +2,8 @@
 
 #### By Monica Barboza
 
-#### It takes a the users number inupt and returns a list of values with a few substitutions.
+#### It takes the users number input and returns a list of values with a few substitutions.
+
 ## Technologies Used
 
 * HTML
@@ -12,7 +13,7 @@
 ## Description
 
  This application gives the user the opportunity to select any number and in return their result is an array of numbers with a few substitutions made by me.
- * Example: I changes the number 1 to "right shoe", 3 to "would you be mine?", 6 to "left shoe", 8 to "could you be mine?", 9 to "Beyonce"
+ * Example: I changed the number 1 to "right shoe", 3 to "would you be mine?", 6 to "left shoe", 8 to "could you be mine?", 9 to "Beyonce"
  * If a user chooses the number 9 the result will be "0 , Right shoe , 2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , Beyonce"".
  * Try it out at http://monboza.github.io/roboger/
 
@@ -27,7 +28,8 @@
 
 ## Known Bugs
 
-*Having issues changing it so that if the user choose 11 number 11 would also be "right shoe" or 101 "right shoe".
+* Having issues changing it so that if the user choose 11 number 11 would also be "right shoe" or 101 "right shoe".
+* Update: I created a new variable that turns the numbers to strings in the array and also changed the if statements to include "include()".
 
 ## License
 
