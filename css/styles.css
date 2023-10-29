@@ -1,6 +1,7 @@
 body {
     background-image:url("https://images6.alphacoders.com/750/750311.jpg");
     background-color: rgb(235, 165, 159);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
@@ -34,10 +35,10 @@ form {
     margin: 10 px auto 10 px;
     padding: 20px;
     border-radius: 10px;
-    -moz-border-readius: 10px;
+    -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-style: ridge;
-    border-right-width: 2px;
+    border-right-width: 5px;
 }
 
 label {
@@ -48,4 +49,3 @@ label {
 button {
     color:rgb(181, 31, 31);
 }
- 

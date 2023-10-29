@@ -13,8 +13,8 @@
 ## Description
 
  This application gives the user the opportunity to select any number and in return their result is an array of numbers with a few substitutions made by me.
- * Example: I changed the number 1 to "Beyonce", 3 to "would you be mine?", 6 to "left shoe", 8 to "could you be mine?", 9 to "right shoe"
- * If a user chooses the number 9 the result will be "0 , Right shoe , 2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , Beyonce"".
+ * Example: I changed the number 0 to "Beyonce", 3 to "would you be mine?", 6 to "left shoe", 8 to "could you be mine?", 9 to "right shoe"
+ * If a user chooses the number 9 the result will be "Beyonce,1 ,  2 , would you be mine? , 4 , 5 , left shoe , 7 , could you be mine? , right shoe".
  * Try it out at http://monboza.github.io/roboger/
 
 ## Setup/Installation Requirements
@@ -22,7 +22,7 @@
 * Open terminal or command prompt.
 * Clone the repository by running the following command to your desktop: 
   git clone https://github.com/MonBoza/roboger.git
-* Open the project in your favorite code editor: 
+* Open the project in your favorite code editor. 
 * Navigate to the to the bottom of the directory.
 * Open the index.html file.
 

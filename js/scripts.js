@@ -13,11 +13,13 @@ function inputNumChange(inputArray) {
             inputArray[i] = "left shoe"
         } else if (numberString.includes(8)) {
             inputArray[i] = "could you be mine?"
-        } else if (numberString.includes(9))
+        } else if (numberString.includes(9)) {
             inputArray[i] = "right Shoe"
+        }
     });
     output.textContent = inputArray.join(" , ");
     return output;
+    
 }
 
 
